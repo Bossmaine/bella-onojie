@@ -1,0 +1,133 @@
+.footer-section {
+    background: url(../../assets/Rectangle\ 47.png);
+    color: #fff;
+    padding: 135px 0;
+}
+
+.footer-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+}
+
+.footer-section h4 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.footer-section h5{
+    display: none;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px !important;
+}
+
+.footer-buttons button {
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+}
+
+.playstore-button-footer {
+    padding: 12px 20px;
+    background-color: #FA4A0C;
+    border-radius: 5px;
+}
+
+.appstore-button-footer {
+    padding: 12px 25px;
+    background-color: transparent;
+    border: 1px solid #fff !important;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 350px;
+    padding: 20px 0 10px 0;
+}
+
+.socials, .socials-two {
+    display: flex;
+    gap: 30px;
+}
+
+.socials a, .socials-two a {
+    text-decoration: none;
+    color: #FA4A0C;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.footer-main p, .footer-main h6 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+.socials-two, .footer-main h6 {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .footer-section {
+        background: #252B42;
+    }
+
+    .footer-section h4 {
+        display: none;
+    }
+
+    .footer-section h5 {
+        display: block;
+        color: #BDBDBD;
+        padding-top: 3%;
+        text-align: center;
+    }
+
+    .footer-section br {
+        display: inline;
+    }
+
+    .logo, .socials, .footer-main p {
+        display: none;
+    }
+
+    .socials-two, .footer-main h6, .footer-main {
+        display: block;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .socials-two a {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 1300px) {
+    .footer-main {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
+}

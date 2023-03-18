@@ -1,0 +1,140 @@
+.body-section {
+    margin-top: 37%;
+}
+
+.line-one, .line-two {
+    display: flex;
+    justify-content: center;
+}
+
+.line-one img {
+    max-width: 80%;
+}
+
+.line-two {
+    display: none;
+}
+
+.body-section h3 {
+    text-align: center;
+}
+
+.body-section-texts {
+    padding-top: 22%;
+    
+}
+
+.body-section-texts h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FA4A0C;
+}
+
+.body-section-texts h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.body-section-texts h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.row {
+    margin-top: -150px;
+}
+
+.mid-row {
+    padding-left: 100px;
+}
+
+@media screen  and (min-width: 200px) and (max-width: 600px) {
+    .body-section {
+        margin-top: 95%;
+        text-align: center;
+    }
+
+    .line-one {
+        display: none;
+    }
+
+    .line-two {
+        display: block;
+        max-width: 100%;
+    }
+
+    .line-two img {
+        width: 100%;
+    }
+
+    .rev-row {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+
+    .mid-row {
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .row img {
+        width: 100%;
+        padding-left: 40px;
+    }
+
+}
+
+@media screen  and (min-width: 599px) and (max-width: 999px) {
+    .body-section {
+        margin-top: 75%;
+        text-align: center;
+    }
+
+    .line-one {
+        display: none;
+    }
+
+    .line-two {
+        display: block;
+        max-width: 100%;
+    }
+
+    .line-two img {
+        width: 100%;
+    }
+
+    .rev-row {
+        flex-direction: column-reverse;
+    }
+
+    .mid-row {
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .row img {
+        width: 100%;
+        padding-left: 100px;
+
+    }
+}
+
+@media screen  and (min-width: 998px) and (max-width: 1200px) {
+    .body-section {
+        margin-top: 60%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1900px) {  
+    .body-section {
+        margin-top: 25%;
+    }
+}
+
